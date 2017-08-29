@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@storybook/addon-knobs": "^3.2.8",
+    "gh-pages": "^1.0.0",
     "markdown-it": "^8.4.0",
     "markdown-it-katex": "^2.0.3",
     "react": "^15.6.1",
@@ -16,7 +17,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "gh-pages": "gh-pages -d storybook-static"
   },
   "devDependencies": {
     "@storybook/react": "^3.2.8"
